@@ -8,7 +8,11 @@ elsif int % 5 == 0
     "Buzz"
 elsif int % 15 == 0 
 "FizzBuzz"
-else 
+elsif int % 5 == 0 || int % 3 == 0
+    "FizzBuzz"
+elsif int % 5 == 0 && int % 3 == 0
+    "FizzBuzz"
+elsif 
 return NIL
 
 end 
