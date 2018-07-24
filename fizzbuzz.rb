@@ -12,7 +12,7 @@ elsif int % 5 == 0 || int % 3 == 0
     "FizzBuzz"
 elsif int % 5 == 0 && int % 3 == 0
     "FizzBuzz"
-elsif 
+else
 return NIL
 
 end 
